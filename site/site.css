@@ -124,3 +124,23 @@ td {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+#displaylyrics {
+  float: right;
+  display: inline-block;
+  width: 800px;
+}
+
+#songstable {
+  float: left;
+  display: inline-block;
+}
+
+#big {
+  width: 100vw;
+  clear: both;
+}
+
+#kit {
+  color: black;
+}
