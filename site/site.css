@@ -89,3 +89,38 @@ body {
     margin-top: 7rem;
   }
 }
+
+.input-group {
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+
+.lyricscontainer {
+  height: 500px;
+  display: none;
+}
+
+.lyricsout {
+  text-align: center;
+  border: 2px solid gray;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.lyricline {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.table {
+  display: block;
+  table-layout: fixed;
+}
+
+td {
+  line-height: 14px;
+  white-space: nowrap;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
